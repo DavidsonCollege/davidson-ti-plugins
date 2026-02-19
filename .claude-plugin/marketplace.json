@@ -1,0 +1,38 @@
+{
+  "name": "davidson-ti-plugins",
+  "owner": {
+    "name": "Davidson College T&I",
+    "email": "jdmills@davidson.edu"
+  },
+  "metadata": {
+    "description": "Official plugin marketplace for Davidson College Technology & Innovation. Curated tools and skills for IT operations, procurement, and campus technology management.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vendor-research",
+      "source": {
+        "source": "github",
+        "repo": "DavidsonCollege/vendor-research-plugin",
+        "ref": "main"
+      },
+      "description": "Comprehensive multi-agent vendor research toolkit. Launches 7 parallel research agents (security, reputation, cost, legal, competitive, higher-ed fit, build feasibility) and synthesizes findings into a professional Vendor Research Brief.",
+      "version": "0.3.0",
+      "author": {
+        "name": "Davidson College T&I"
+      },
+      "license": "MIT",
+      "keywords": [
+        "vendor",
+        "procurement",
+        "security",
+        "higher-education",
+        "HECVAT",
+        "compliance",
+        "FERPA",
+        "build-vs-buy"
+      ],
+      "category": "procurement"
+    }
+  ]
+}
