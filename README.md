@@ -4,17 +4,30 @@ Official Claude Code plugin marketplace for Davidson College Technology & Innova
 
 ## Installation
 
-### 1. Add the marketplace
+### Claude Code (CLI)
+
+1. Add the marketplace:
 
 ```shell
 /plugin marketplace add DavidsonCollege/davidson-ti-plugins
 ```
 
-### 2. Browse and install plugins
+2. Install a plugin:
 
 ```shell
 /plugin install <plugin-name>@davidson-ti-plugins
 ```
+
+### Claude Desktop (Cowork)
+
+Cowork is available in the [Claude Desktop app](https://claude.com/download) for macOS and Windows. A paid Claude plan (Pro, Max, Team, or Enterprise) is required.
+
+1. Open **Claude Desktop** and click the **Cowork** tab at the top of the window.
+2. Click **Plugins** in the left sidebar.
+3. Click the **+** button next to **Personal plugins** and select **Add marketplace from GitHub**.
+4. Enter `DavidsonCollege/davidson-ti-plugins` and confirm.
+5. Click the **Personal** tab in the **Browse plugins** dialog to see the marketplace and its plugins.
+6. Click a plugin to install it.
 
 ## Available Plugins
 
@@ -36,28 +49,6 @@ Comprehensive multi-agent vendor research toolkit for higher education IT procur
 | vendor-competitive-analysis | "Compare Monday.com to Asana" |
 | vendor-higher-ed-fit | "Is Notion a good fit for higher ed?" |
 | vendor-build-feasibility | "Could we build our own ticketing system?" |
-
-## Private Repository Access
-
-This is a private marketplace. To install plugins from it, you need Git credentials that can access the repository.
-
-### For interactive use
-
-Authenticate with the GitHub CLI:
-
-```bash
-gh auth login
-```
-
-### For background auto-updates
-
-Set a GitHub token in your shell profile (~/.zshrc or ~/.bashrc):
-
-```bash
-export GITHUB_TOKEN=ghp_your_token_here
-```
-
-The token needs the `repo` scope to access private repositories.
 
 ## Adding New Plugins
 
