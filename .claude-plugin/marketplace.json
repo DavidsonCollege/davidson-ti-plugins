@@ -11,11 +11,7 @@
   "plugins": [
     {
       "name": "vendor-research",
-      "source": {
-        "source": "github",
-        "repo": "DavidsonCollege/vendor-research-plugin",
-        "ref": "main"
-      },
+      "source": "./vendor-research",
       "description": "Comprehensive multi-agent vendor research toolkit. Launches 7 parallel research agents (security, reputation, cost, legal, competitive, higher-ed fit, build feasibility) and synthesizes findings into a professional Vendor Research Brief.",
       "version": "0.3.0",
       "author": {
